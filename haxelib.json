@@ -4,7 +4,7 @@
   "license": "MIT",
   "tags": ["utility"],
   "description": "Tool library for Keystone Games Applications",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "classPath": "src/",
   "releasenote": "",
   "contributors": ["SidGames5"],
