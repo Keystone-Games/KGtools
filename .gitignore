@@ -14,3 +14,7 @@
 .vscode/
 .idea/
 .eclipse/
+
+*.zip
+*.exe
+*.dll
