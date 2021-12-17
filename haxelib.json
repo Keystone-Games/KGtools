@@ -1,13 +1,16 @@
 {
-  "name": "haxelib-template",
-  "url" : "https://github.com/BasicCorruption/haxelib-template",
-  "license": "",
-  "tags": ["useless"],
-  "description": "this does something",
-  "version": "1.0.0",
+  "name": "KGtools",
+  "url" : "https://github.com/Keystone-Games/KGtools",
+  "license": "MIT",
+  "tags": ["utility"],
+  "description": "Tool library for Keystone Games Applications",
+  "version": "0.0.0",
   "classPath": "src/",
   "releasenote": "",
   "contributors": ["SidGames5"],
-  "dependencies": {},
-  "main": "Main"
+  "dependencies": {
+    "kglog": "1.0.1",
+    "flixel": "4.9.0"
+  },
+  "main": "kg.kgtools.Main"
 }
