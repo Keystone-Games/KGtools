@@ -1,13 +1,17 @@
 {
   "name": "KGtools",
-  "url" : "https://github.com/Keystone-Games/KGtools",
+  "url": "https://github.com/Keystone-Games/KGtools",
   "license": "MIT",
-  "tags": ["utility"],
+  "tags": [
+    "utility"
+  ],
   "description": "Tool library for Keystone Games Applications",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "classPath": "src/",
   "releasenote": "Initial release",
-  "contributors": ["SidGames5"],
+  "contributors": [
+    "SidGames5"
+  ],
   "dependencies": {
     "kglog": "1.0.1",
     "flixel": "4.9.0"
