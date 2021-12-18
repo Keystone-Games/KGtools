@@ -21,4 +21,20 @@ class Path
 			return x;
 		}
 	}
+
+	public static function addTrailingSlash(Path:String):String
+	{
+		Logger.simpleLog("Checking for trailing slash...");
+		if (Path.endsWith("/"))
+		{
+			Logger.simpleLog("Trailing slash found; returning original string");
+			return Path;
+		}
+		else
+		{
+			var x;
+			x = Path + "/";
+			return x;
+		}
+	}
 }
